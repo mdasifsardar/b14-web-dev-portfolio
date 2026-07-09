@@ -187,3 +187,49 @@ nav ul li a {
   line-height: 1.75;
   margin-top: 23px;
 }
+
+/*  My Amazing Works Section Style  */
+.my-amazing-parent {
+  text-align: center;
+}
+.my-amazing-parent h2 {
+  color: #181818;
+  font-size: 35px;
+  font-weight: 700;
+  line-height: 1.2;
+}
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 12px;
+  margin-top: 20px;
+  grid-auto-rows: 250px;
+  grid-template-areas:
+    "one two three"
+    "four two six"
+    "four five six";
+}
+
+.gallery img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+.box-1 {
+  grid-area: one;
+}
+.box-2 {
+  grid-area: two;
+}
+.box-3 {
+  grid-area: three;
+}
+.box-4 {
+  grid-area: four;
+}
+.box-5 {
+  grid-area: five;
+}
+.box-6 {
+  grid-area: six;
+}
