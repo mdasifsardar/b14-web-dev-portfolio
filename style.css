@@ -1,0 +1,101 @@
+/* Reset Style */
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Open Sans", sans-serif;
+}
+img {
+  max-width: 100%;
+}
+.container {
+  max-width: 1200px;
+  margin: auto;
+}
+
+/* Common style */
+.common-btn {
+  background-color: #fd6e0a;
+  padding: 10px 20px;
+  border-radius: 6px;
+  font-weight: bold;
+  font-size: 20px;
+  color: #ffffff;
+  border: 0;
+  cursor: pointer;
+}
+
+/* Header Style */
+.nav-root {
+  background-color: #fff8f3;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 12px 0;
+}
+.logo {
+  font-weight: bold;
+  font-size: 32px;
+}
+.logo-r {
+  color: #fd6e0a;
+}
+nav ul {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  gap: 24px;
+  align-items: center;
+}
+nav ul li a {
+  text-decoration: none;
+  color: #474747;
+  font-size: 20px;
+}
+
+/* Hero Section Style */
+.hero-parent-root {
+  background-color: #fff8f3;
+}
+.hero-parent {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Hero Left */
+
+.hero-left .hero-left-p1 {
+  font-weight: 600;
+  color: #474747;
+  font-size: 45px;
+  line-height: 1.2;
+}
+.hero-left h2 {
+  color: #181818;
+  font-weight: bold;
+  font-size: 85px;
+  line-height: 1.2;
+  margin-top: 12px;
+}
+.hero-left-btn-parent {
+  margin-top: 30px;
+}
+.hero-left .hero-left-p2 {
+  font-weight: 400;
+  color: #757575;
+  font-size: 18px;
+  line-height: 1.67;
+  margin-top: 34px;
+}
+.hero-contact-btn {
+  color: #fd6e0a;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 1.2;
+  background-color: #fff8f3;
+  border: 1px solid #fd6e0a;
+  padding: 10px 20px;
+  border-radius: 6px;
+  cursor: pointer;
+}
